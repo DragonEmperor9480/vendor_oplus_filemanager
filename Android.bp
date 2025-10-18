@@ -1,0 +1,15 @@
+soong_namespace {
+	imports: [
+	],
+}
+
+android_app_import {
+    name: "FileManager",
+    owner: "oplus",
+    apk: "proprietary/system_ext/priv-app/FileManager/FileManager.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
