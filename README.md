@@ -10,4 +10,4 @@ Prebuilt stock oplus File Manager to include in custom ROM builds.
 
 ```
 # Oplus File Manager
-$(call inherit-product-if-exists, vendor/oplus/camera/filemanager.mk)
+$(call inherit-product-if-exists, vendor/oplus/filemanager/filemanager.mk)
